@@ -8,8 +8,8 @@ Author: Djuradj Perunovic
 
 // Add the scripts and styles to the page
 function bottom_right_window_scripts() {
-    wp_enqueue_script( 'bottom-right-window-script', plugin_dir_url( __FILE__ ) . 'bottom-right-window.js', array( 'jquery' ), '1.0', true );
-    wp_enqueue_style( 'bottom-right-window-style', plugin_dir_url( __FILE__ ) . 'bottom-right-window.css' );
+    wp_enqueue_script( 'bottom-right-window-script', plugin_dir_url( __FILE__ ) . 'live-chat.js', array( 'jquery' ), '1.0', true );
+    wp_enqueue_style( 'bottom-right-window-style', plugin_dir_url( __FILE__ ) . 'live-chat.css' );
 }
 add_action( 'wp_enqueue_scripts', 'bottom_right_window_scripts' );
 
